@@ -8,21 +8,28 @@
     <link rel="icon" href="hacker.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<style>
+   
+</style>
 </head>
-
+  
 <body>
 <center>
-    <h1>CPU Scheduling Algorithms</h1>
-    <h3>Preferences :</h3>
+    <div class="full">
+    <div class="head">
+    <h1>CPU Scheduling Algorithms</h1></div>
+    <div class="pref">
+    <h3>Preferences :</h3></div>
     <ol class="preferences">
         <li>
             Priority : 1 is
+            <div class="bb">
             <button id="priority-toggle-btn">
                 <span id="priority-preference">high</span>
                 <i class="fa fa-refresh"></i>
-            </button>
-        </li>
+            </button></div>
+        </li> </ol>
+        <div class="form">
         <form id="algorithms-form">
             <label for="algo"><h3>Algorithms : </h3></label>
             <select name="algo" id="algo">
@@ -36,7 +43,7 @@
                 <option value="pp">Priority (Preemptive)</option>
                 <option value="hrrn">Highest Response Ratio Next (HRRN)</option>
             </select>
-        </form>
+        </form></div>
         <br>
         <table class="main-table">
             <thead>
@@ -66,8 +73,9 @@
         <button type="button" class="remove-btn">Delete Process</button>
         <div id="context-switch-div">
             <br>
+            <div class="cont">
             <label for="context-switch">Context Switch Time : </label>
-            <input type="number" name="Context Switch" id="context-switch" min="0" step="1" value="0">
+            <input type="number" name="Context Switch" id="context-switch" min="0" step="1" value="0"></div>
         </div>
         <div id="time-quantum" class="hide">
             <br>
@@ -75,6 +83,7 @@
             <input type="number" name="Time Quantum" id="tq" min="1" step="1" value="1">
         </div>
         <br>
+       
         <button type="button" id="calculate">Calculate</button>
         <button type="button" id="reset" onClick="window.location.reload();">Reset</button>
         <div id="output"></div>
@@ -82,6 +91,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </center>
+</div>
 </body>
 
 </html>
