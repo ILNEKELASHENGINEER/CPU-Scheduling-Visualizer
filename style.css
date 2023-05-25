@@ -182,3 +182,127 @@ thead {
     left: 40%;
     top: 20px;
 }
+
+
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    color: greenyellow;
+}
+.head{
+padding: 20px;
+background-color: rgb(43, 14, 39);
+color: greenyellow;
+}
+.pref{
+background-color: white;
+width: 30%;
+position: relative;
+padding: 20px;
+
+
+}
+.pref h3{
+color: black;
+font-size: 20px;
+
+}
+ol{
+padding: 10px;
+
+}
+ol li{
+font-size: 24px;
+
+}
+ol li button {
+
+border: 2px solid black;
+padding: 10px;
+
+
+}
+i{
+padding-left: 10px;
+
+padding-bottom: 10px;
+
+}
+ol li button span{
+/* background-color:rgb(139, 255, 205); */
+padding: 0px 20px 10px 14px;
+border-radius: 20px;
+}
+.form{
+background-color: antiquewhite;
+width: 30%;
+padding: 20px;
+color: black;
+position: relative;
+}
+.form form label h3{
+font-size: 25px;
+padding-bottom: 10px;
+}
+select{
+background-color: aquamarine;
+padding: 10px;
+border-radius: 10px;
+font-size: 16px;
+font-weight: 500;
+}
+table{
+background-color: white;
+padding: 20px;
+color: black;
+cursor: pointer;
+}
+tr{
+padding: 30px;
+}
+td{
+    padding: 10px 14px 10px 14px;
+}
+th{
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+button{
+    background-color: greenyellow;
+    color: rgb(20, 5, 5);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cont{
+padding: 20px;
+
+}
+.cont label{
+font-size: 20px;
+}
+.cont  input{
+    background-color: aquamarine;
+padding: 10px;
+border-radius: 10px;
+}
+.bb button{
+   flex-direction: row;
+}
+.bb span{
+    padding: 10px;
+}
+.full{
+    padding: 20px;
+    width: 100%;
+    background-color:rgb(43, 14, 39) ;
+    border-radius: 20px;
+}
